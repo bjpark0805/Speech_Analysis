@@ -59,14 +59,6 @@ git clone https://github.com/bjpark0805/Speech_Analysis.git
 cd Speech_Analysis
 ```
 
-### Attention
-There are three python files in the demo.sh.
-Please check if the directories are correct
-
-The output of finetune_teacher.py is in the ./data/outputs/kd
-The output of save_teacher_prediction.py is in the ./data/outputs/LOBERT
-
-
 ## Contact
 
 - Bumjoon Park (qkrskaqja@snu.ac.kr)
