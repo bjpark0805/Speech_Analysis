@@ -59,19 +59,6 @@ git clone https://github.com/bjpark0805/Speech_Analysis.git
 cd Speech_Analysis
 ```
 
-### Demo  (should modify)
-
-You can easily test the whole procedure by running `demo.sh`.
-The script will fine-tune BERT-base for MRPC, save its predictions, and train a
-student model which is compressed by Truncated SVD.
-This is run only on machines with GPUs, because of an assert statement in
-`finetune_teacher.py`, which is run first in `demo.sh`. 
-
-In case the following error, this [link](https://github.com/NVIDIA/apex/issues/116) will help you to solve it.
-```
-TypeError: Class advice impossible in Python3. Use the @Implementer class decorator instead.
-```
-
 ### Attention
 There are three python files in the demo.sh.
 Please check if the directories are correct
