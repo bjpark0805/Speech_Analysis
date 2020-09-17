@@ -46,6 +46,7 @@ Speech_Analysis
 * wave
 * resampy
 * pydub 
+* tensorflow
 * google cloud 
 * ffmpeg
 
